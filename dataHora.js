@@ -5,10 +5,9 @@ function displayDate() {
     var minutos = agora.getMinutes();
     
 
-    var horaFormatada = hora + ":" + minutos ;
 
     var horaDisplay = document.getElementById("horaDisplay");
-    horaDisplay.textContent = "Hora atual: " + horaFormatada;
+    horaDisplay.textContent = "Hora atual: " ;
 }
 function showAlert() {
     alert("Olá!");
